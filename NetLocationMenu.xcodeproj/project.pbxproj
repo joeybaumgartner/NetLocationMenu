@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D473ABFA16F40950002BA8F0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D473ABF916F40950002BA8F0 /* Cocoa.framework */; };
+		D473AC0416F40950002BA8F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D473AC0216F40950002BA8F0 /* InfoPlist.strings */; };
+		D473AC0616F40950002BA8F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D473AC0516F40950002BA8F0 /* main.m */; };
+		D473AC0A16F40950002BA8F0 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D473AC0816F40950002BA8F0 /* Credits.rtf */; };
+		D473AC0D16F40950002BA8F0 /* jbcAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D473AC0C16F40950002BA8F0 /* jbcAppDelegate.m */; };
+		D473AC1016F40950002BA8F0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D473AC0E16F40950002BA8F0 /* MainMenu.xib */; };
+		D473AC1816F40951002BA8F0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D473AC1716F40950002BA8F0 /* SenTestingKit.framework */; };
+		D473AC1916F40951002BA8F0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D473ABF916F40950002BA8F0 /* Cocoa.framework */; };
+		D473AC2116F40951002BA8F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D473AC1F16F40951002BA8F0 /* InfoPlist.strings */; };
+		D473AC2416F40951002BA8F0 /* NetLocationMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D473AC2316F40951002BA8F0 /* NetLocationMenuTests.m */; };
+		D473AC2E16F41101002BA8F0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D473AC2D16F41101002BA8F0 /* SystemConfiguration.framework */; };
+		D473AC3116F41FCF002BA8F0 /* jbcAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = D473AC3016F41FCF002BA8F0 /* jbcAppController.m */; };
+		D4C268C916F4B95D0036AD2D /* jbcNetworkSet.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C268C816F4B95D0036AD2D /* jbcNetworkSet.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D473AC1A16F40951002BA8F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D473ABEE16F40950002BA8F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D473ABF516F40950002BA8F0;
+			remoteInfo = NetLocationMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D473ABF616F40950002BA8F0 /* NetLocationMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetLocationMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D473ABF916F40950002BA8F0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D473ABFC16F40950002BA8F0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D473ABFD16F40950002BA8F0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D473ABFE16F40950002BA8F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D473AC0116F40950002BA8F0 /* NetLocationMenu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetLocationMenu-Info.plist"; sourceTree = "<group>"; };
+		D473AC0316F40950002BA8F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D473AC0516F40950002BA8F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D473AC0716F40950002BA8F0 /* NetLocationMenu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetLocationMenu-Prefix.pch"; sourceTree = "<group>"; };
+		D473AC0916F40950002BA8F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D473AC0B16F40950002BA8F0 /* jbcAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jbcAppDelegate.h; sourceTree = "<group>"; };
+		D473AC0C16F40950002BA8F0 /* jbcAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jbcAppDelegate.m; sourceTree = "<group>"; };
+		D473AC0F16F40950002BA8F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D473AC1616F40950002BA8F0 /* NetLocationMenuTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetLocationMenuTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D473AC1716F40950002BA8F0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D473AC1E16F40951002BA8F0 /* NetLocationMenuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetLocationMenuTests-Info.plist"; sourceTree = "<group>"; };
+		D473AC2016F40951002BA8F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D473AC2216F40951002BA8F0 /* NetLocationMenuTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetLocationMenuTests.h; sourceTree = "<group>"; };
+		D473AC2316F40951002BA8F0 /* NetLocationMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetLocationMenuTests.m; sourceTree = "<group>"; };
+		D473AC2D16F41101002BA8F0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D473AC2F16F41FCF002BA8F0 /* jbcAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jbcAppController.h; sourceTree = "<group>"; };
+		D473AC3016F41FCF002BA8F0 /* jbcAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jbcAppController.m; sourceTree = "<group>"; };
+		D4C268C716F4B95D0036AD2D /* jbcNetworkSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jbcNetworkSet.h; sourceTree = "<group>"; };
+		D4C268C816F4B95D0036AD2D /* jbcNetworkSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jbcNetworkSet.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D473ABF316F40950002BA8F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D473AC2E16F41101002BA8F0 /* SystemConfiguration.framework in Frameworks */,
+				D473ABFA16F40950002BA8F0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D473AC1216F40950002BA8F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D473AC1816F40951002BA8F0 /* SenTestingKit.framework in Frameworks */,
+				D473AC1916F40951002BA8F0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D473ABED16F40950002BA8F0 = {
+			isa = PBXGroup;
+			children = (
+				D473ABFF16F40950002BA8F0 /* NetLocationMenu */,
+				D473AC1C16F40951002BA8F0 /* NetLocationMenuTests */,
+				D473ABF816F40950002BA8F0 /* Frameworks */,
+				D473ABF716F40950002BA8F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D473ABF716F40950002BA8F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D473ABF616F40950002BA8F0 /* NetLocationMenu.app */,
+				D473AC1616F40950002BA8F0 /* NetLocationMenuTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D473ABF816F40950002BA8F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D473AC2D16F41101002BA8F0 /* SystemConfiguration.framework */,
+				D473ABF916F40950002BA8F0 /* Cocoa.framework */,
+				D473AC1716F40950002BA8F0 /* SenTestingKit.framework */,
+				D473ABFB16F40950002BA8F0 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D473ABFB16F40950002BA8F0 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D473ABFC16F40950002BA8F0 /* AppKit.framework */,
+				D473ABFD16F40950002BA8F0 /* CoreData.framework */,
+				D473ABFE16F40950002BA8F0 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D473ABFF16F40950002BA8F0 /* NetLocationMenu */ = {
+			isa = PBXGroup;
+			children = (
+				D473AC0B16F40950002BA8F0 /* jbcAppDelegate.h */,
+				D473AC0C16F40950002BA8F0 /* jbcAppDelegate.m */,
+				D473AC0E16F40950002BA8F0 /* MainMenu.xib */,
+				D473AC2F16F41FCF002BA8F0 /* jbcAppController.h */,
+				D473AC3016F41FCF002BA8F0 /* jbcAppController.m */,
+				D473AC0016F40950002BA8F0 /* Supporting Files */,
+				D4C268C716F4B95D0036AD2D /* jbcNetworkSet.h */,
+				D4C268C816F4B95D0036AD2D /* jbcNetworkSet.m */,
+			);
+			path = NetLocationMenu;
+			sourceTree = "<group>";
+		};
+		D473AC0016F40950002BA8F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D473AC0116F40950002BA8F0 /* NetLocationMenu-Info.plist */,
+				D473AC0216F40950002BA8F0 /* InfoPlist.strings */,
+				D473AC0516F40950002BA8F0 /* main.m */,
+				D473AC0716F40950002BA8F0 /* NetLocationMenu-Prefix.pch */,
+				D473AC0816F40950002BA8F0 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D473AC1C16F40951002BA8F0 /* NetLocationMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				D473AC2216F40951002BA8F0 /* NetLocationMenuTests.h */,
+				D473AC2316F40951002BA8F0 /* NetLocationMenuTests.m */,
+				D473AC1D16F40951002BA8F0 /* Supporting Files */,
+			);
+			path = NetLocationMenuTests;
+			sourceTree = "<group>";
+		};
+		D473AC1D16F40951002BA8F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D473AC1E16F40951002BA8F0 /* NetLocationMenuTests-Info.plist */,
+				D473AC1F16F40951002BA8F0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D473ABF516F40950002BA8F0 /* NetLocationMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D473AC2716F40951002BA8F0 /* Build configuration list for PBXNativeTarget "NetLocationMenu" */;
+			buildPhases = (
+				D473ABF216F40950002BA8F0 /* Sources */,
+				D473ABF316F40950002BA8F0 /* Frameworks */,
+				D473ABF416F40950002BA8F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetLocationMenu;
+			productName = NetLocationMenu;
+			productReference = D473ABF616F40950002BA8F0 /* NetLocationMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D473AC1516F40950002BA8F0 /* NetLocationMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D473AC2A16F40951002BA8F0 /* Build configuration list for PBXNativeTarget "NetLocationMenuTests" */;
+			buildPhases = (
+				D473AC1116F40950002BA8F0 /* Sources */,
+				D473AC1216F40950002BA8F0 /* Frameworks */,
+				D473AC1316F40950002BA8F0 /* Resources */,
+				D473AC1416F40950002BA8F0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D473AC1B16F40951002BA8F0 /* PBXTargetDependency */,
+			);
+			name = NetLocationMenuTests;
+			productName = NetLocationMenuTests;
+			productReference = D473AC1616F40950002BA8F0 /* NetLocationMenuTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D473ABEE16F40950002BA8F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = jbc;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Joe Baumgartner";
+			};
+			buildConfigurationList = D473ABF116F40950002BA8F0 /* Build configuration list for PBXProject "NetLocationMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D473ABED16F40950002BA8F0;
+			productRefGroup = D473ABF716F40950002BA8F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D473ABF516F40950002BA8F0 /* NetLocationMenu */,
+				D473AC1516F40950002BA8F0 /* NetLocationMenuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D473ABF416F40950002BA8F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D473AC0416F40950002BA8F0 /* InfoPlist.strings in Resources */,
+				D473AC0A16F40950002BA8F0 /* Credits.rtf in Resources */,
+				D473AC1016F40950002BA8F0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D473AC1316F40950002BA8F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D473AC2116F40951002BA8F0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D473AC1416F40950002BA8F0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D473ABF216F40950002BA8F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D473AC0616F40950002BA8F0 /* main.m in Sources */,
+				D473AC0D16F40950002BA8F0 /* jbcAppDelegate.m in Sources */,
+				D473AC3116F41FCF002BA8F0 /* jbcAppController.m in Sources */,
+				D4C268C916F4B95D0036AD2D /* jbcNetworkSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D473AC1116F40950002BA8F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D473AC2416F40951002BA8F0 /* NetLocationMenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D473AC1B16F40951002BA8F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D473ABF516F40950002BA8F0 /* NetLocationMenu */;
+			targetProxy = D473AC1A16F40951002BA8F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D473AC0216F40950002BA8F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D473AC0316F40950002BA8F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D473AC0816F40950002BA8F0 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D473AC0916F40950002BA8F0 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D473AC0E16F40950002BA8F0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D473AC0F16F40950002BA8F0 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D473AC1F16F40951002BA8F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D473AC2016F40951002BA8F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D473AC2516F40951002BA8F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D473AC2616F40951002BA8F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D473AC2816F40951002BA8F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetLocationMenu/NetLocationMenu-Prefix.pch";
+				INFOPLIST_FILE = "NetLocationMenu/NetLocationMenu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D473AC2916F40951002BA8F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetLocationMenu/NetLocationMenu-Prefix.pch";
+				INFOPLIST_FILE = "NetLocationMenu/NetLocationMenu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D473AC2B16F40951002BA8F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NetLocationMenu.app/Contents/MacOS/NetLocationMenu";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetLocationMenu/NetLocationMenu-Prefix.pch";
+				INFOPLIST_FILE = "NetLocationMenuTests/NetLocationMenuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D473AC2C16F40951002BA8F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NetLocationMenu.app/Contents/MacOS/NetLocationMenu";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetLocationMenu/NetLocationMenu-Prefix.pch";
+				INFOPLIST_FILE = "NetLocationMenuTests/NetLocationMenuTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D473ABF116F40950002BA8F0 /* Build configuration list for PBXProject "NetLocationMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D473AC2516F40951002BA8F0 /* Debug */,
+				D473AC2616F40951002BA8F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D473AC2716F40951002BA8F0 /* Build configuration list for PBXNativeTarget "NetLocationMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D473AC2816F40951002BA8F0 /* Debug */,
+				D473AC2916F40951002BA8F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D473AC2A16F40951002BA8F0 /* Build configuration list for PBXNativeTarget "NetLocationMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D473AC2B16F40951002BA8F0 /* Debug */,
+				D473AC2C16F40951002BA8F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D473ABEE16F40950002BA8F0 /* Project object */;
+}
